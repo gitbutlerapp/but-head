@@ -10,7 +10,11 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "prettier": "^3.7.4",
     "svelte": "^5.43.8",
     "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@gitbutler/design-core": "^1.6.1"
   }
 }
