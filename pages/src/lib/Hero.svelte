@@ -27,7 +27,7 @@
       A display typeface born from technical precision and editorial flair.
       Built specifically to command attention in headlines and interfaces.
       <br />
-      Monospace foundations, magazine aesthetics. Yes, the name is ridiculous.
+      Monospace foundations, magazine aesthetics.
     </p>
   </div>
 

@@ -1,4 +1,6 @@
 <script>
+  import StyleSwitcher from "./StyleSwitcher.svelte";
+
   const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const numbersAndSymbols = "0123456789!@#$%^&*()_+";
 
@@ -7,20 +9,7 @@
 
 <section class="alphabet-section">
   <div class="style-switcher">
-    <button
-      class="switcher-button"
-      class:active={selectedStyle === "regular"}
-      onclick={() => (selectedStyle = "regular")}
-    >
-      Regular
-    </button>
-    <button
-      class="switcher-button"
-      class:active={selectedStyle === "italic"}
-      onclick={() => (selectedStyle = "italic")}
-    >
-      <i>Italic</i>
-    </button>
+    <StyleSwitcher bind:selectedStyle />
   </div>
 
   <div class="alphabet-wrap" class:italic={selectedStyle === "italic"}>
@@ -41,7 +30,6 @@
     display: grid;
     grid-template-columns: subgrid;
     grid-column: full-start / full-end;
-    padding-top: 40px;
   }
 
   .style-switcher {
@@ -49,31 +37,6 @@
     display: inline-flex;
     width: fit-content;
     transform: translateY(24px);
-  }
-
-  .switcher-button {
-    padding: 8px 14px;
-    border: 2px solid var(--clr-core-pop-30);
-    background: var(--clr-bg-2);
-    color: var(--clr-core-pop-30);
-    font-size: 24px;
-
-    &:first-child {
-      padding-left: 20px;
-      border-top-left-radius: 100px;
-      border-bottom-left-radius: 100px;
-    }
-
-    &:last-child {
-      padding-right: 20px;
-      border-top-right-radius: 100px;
-      border-bottom-right-radius: 100px;
-    }
-  }
-
-  .switcher-button.active {
-    background-color: var(--clr-core-pop-30);
-    color: var(--clr-core-pop-90);
   }
 
   .alphabet-wrap {

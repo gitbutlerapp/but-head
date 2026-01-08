@@ -92,8 +92,6 @@
     display: grid;
     grid-template-columns: subgrid;
     grid-column: full-start / full-end;
-    padding-top: 40px;
-    padding-bottom: 40px;
   }
 
   .image-comparison {

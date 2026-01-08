@@ -4,6 +4,7 @@
   import AllLetters from "./lib/AllLetters.svelte";
   import NoGaps from "./lib/NoGaps.svelte";
   import FontsCompare from "./lib/FontsCompare.svelte";
+  import Editor from "./lib/Editor.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
@@ -12,6 +13,7 @@
   <AllLetters />
   <NoGaps />
   <FontsCompare />
+  <Editor />
   <Footer />
 </main>
 

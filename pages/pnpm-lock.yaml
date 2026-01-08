@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@gitbutler/design-core':
-        specifier: ^1.6.1
-        version: 1.6.1
+        specifier: ^1.7.0
+        version: 1.7.0
     devDependencies:
       '@sveltejs/vite-plugin-svelte':
         specifier: ^6.2.1
@@ -183,8 +183,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@gitbutler/design-core@1.6.1':
-    resolution: {integrity: sha512-0HebqKKRv9f4/GBQHIJLKOuufzDOLEmOTPjjroT4R8kNZUtAkGmmLCQ1GP+ctenNo1PLXIQdfq7FqLGHlKanxg==}
+  '@gitbutler/design-core@1.7.0':
+    resolution: {integrity: sha512-KkhBIzGJxYa3pXBU+5nSrneq491IACSYRwyEFD45TW5kt/okkAfZ7K9ttymsB+P2fJ/FmUEkQ+Lo31ddbtIolw==}
 
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
@@ -589,7 +589,7 @@ snapshots:
   '@esbuild/win32-x64@0.27.2':
     optional: true
 
-  '@gitbutler/design-core@1.6.1': {}
+  '@gitbutler/design-core@1.7.0': {}
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
