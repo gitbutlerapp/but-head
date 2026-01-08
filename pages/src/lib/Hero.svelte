@@ -24,10 +24,10 @@
     </nav>
 
     <p class="description-text">
-      The unsolicited lovechild of technical precision and editorial arrogance.
-      Designed specifically to shout headlines for GitButler.
+      A display typeface born from technical precision and editorial flair.
+      Built specifically to command attention in headlines and interfaces.
       <br />
-      Yes, the name is ridiculous.
+      Monospace foundations, magazine aesthetics. Yes, the name is ridiculous.
     </p>
   </div>
 

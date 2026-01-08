@@ -75,19 +75,15 @@
   </div>
 
   <p class="description-text">
-    High-contrast fonts often have fragile horizontal lines that disappear on
-    screen. We increased the density so you don't have to over-scale the text
-    just to make it readable.
-  </p>
+    High-contrast typefaces often struggle on screen with hairline strokes that
+    vanish at smaller sizes. But Head features reinforced horizontal strokes for
+    superior readability without oversizing.
 
-  <div class="better-together">
-    <img class="rooster" src="./rooster.png" alt="" />
-    <h2 class="title">Better <br /><i> together</i></h2>
-  </div>
+    <br />
+    <br />
 
-  <p class="description-text">
-    A strong italic is crucial for serif fonts. Using both styles allows for
-    better visual hierarchy and emphasis in your text.
+    The true italic variant (not just slanted) provides authentic emphasis and
+    hierarchy, essential for interface typography where every detail matters.
   </p>
 </section>
 
@@ -169,7 +165,7 @@
   }
 
   .rooster {
-    width: 240px;
+    width: 220px;
     margin-left: -30px;
   }
 

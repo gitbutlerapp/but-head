@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "But Head";
+  src: url("./But-Head-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "But Head";
+  src: url("./But-Head-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

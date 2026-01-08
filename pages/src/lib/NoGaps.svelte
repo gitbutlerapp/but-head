@@ -18,9 +18,11 @@
   </div>
 
   <p class="description-text">
-    We took Xanh Mono and Instrument and smashed them together.
+    Built on Xanh Mono's monospace structure and Instrument's editorial
+    refinement.
     <br />
-    We broke the monospace grid. It looks like code, but it reads like a magazine.
+    Breaking free from the rigid grid — it has the precision of code with the flow
+    of editorial design.
   </p>
 </section>
 

@@ -1,33 +1,48 @@
 # but-head
 
-A simple landing page built with Svelte and Vite.
+A custom font project with demo landing page.
 
-## Features
+## Project Structure
 
-- ⚡ Fast development with Vite
-- 🎨 Modern, responsive design
-- 🚀 Simple and elegant UI
-- 🌓 Dark/light mode support
+```
+but-head/
+├── font/           # Font source files and exports
+│   ├── source/     # Glyphs source files
+│   └── export/     # Exported font files
+└── demo/           # Demo landing page (Svelte + Vite)
+```
 
-## Getting Started
+## Font
+
+The font source files are located in the `font/` directory:
+- `font/source/` - Glyphs source files (ButHead-Regular.glyphs, ButHead-Italic.glyphs)
+- `font/export/` - Exported font files
+
+## Demo
+
+A simple landing page built with Svelte and Vite to showcase the font.
 
 ### Prerequisites
 
 - Node.js (version 16 or higher)
-- npm or yarn
+- pnpm (or npm/yarn)
 
 ### Installation
 
 ```bash
+# Navigate to demo directory
+cd demo
+
 # Install dependencies
-npm install
+pnpm install
 ```
 
 ### Development
 
 ```bash
 # Start the development server
-npm run dev
+cd demo
+pnpm run dev
 ```
 
 The site will be available at `http://localhost:5173/`
@@ -36,16 +51,18 @@ The site will be available at `http://localhost:5173/`
 
 ```bash
 # Build for production
-npm run build
+cd demo
+pnpm run build
 ```
 
-The built files will be in the `dist` directory.
+The built files will be in the `demo/dist` directory.
 
 ### Preview
 
 ```bash
 # Preview the production build
-npm run preview
+cd demo
+pnpm run preview
 ```
 
 ## Project Structure
