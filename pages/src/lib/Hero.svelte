@@ -12,8 +12,9 @@
 
   <div class="hero-content">
     <nav class="nav-links">
-      <a href="https://github.com/gitbutlerapp/but-head" target="_blank"
-        >Download font</a
+      <a
+        href="https://github.com/gitbutlerapp/but-head/raw/refs/heads/main/font/but-head.zip"
+        target="_blank">Download font</a
       >
       <a href="https://github.com/gitbutlerapp/but-head" target="_blank"
         >Source</a
