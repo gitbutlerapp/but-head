@@ -32,7 +32,7 @@
       fontSize * ratio
     )}px; font-style: {selectedStyle};"
   >
-    Yes, the font name is real. Start typing.
+    Yes, the font name is real. <i>Start typing</i>.
   </div>
 
   <div class="controls">
