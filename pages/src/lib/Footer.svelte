@@ -25,7 +25,9 @@
     <div class="copyright">
       © 2025 Made for people.
       <br />
-      Designed by <a href="">Pavel Laptev</a> in
+      Designed by
+      <a href="https://github.com/PavelLaptev" target="_blank">Pavel Laptev</a>
+      in
       <a href="https://gitbutler.com/" target="_blank">GitButler</a>
     </div>
 
