@@ -18,7 +18,7 @@
       <a href="https://github.com/gitbutlerapp/but-head" target="_blank"
         >Source</a
       >
-      <a href="https://github.com/gitbutlerapp/but-head" target="_blank"
+      <a href="https://blog.gitbutler.com/but-head-font" target="_blank"
         >Read more</a
       >
     </nav>
