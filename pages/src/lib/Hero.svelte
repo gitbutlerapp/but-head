@@ -68,9 +68,12 @@
     font-size: clamp(3rem, 27vw, 450px);
     line-height: 0.8;
     letter-spacing: -0.02em;
-    font-family: But Head;
+    font-family:
+      But Head,
+      serif;
     text-align: center;
     margin: 0;
+    text-wrap: nowrap;
 
     & i {
       font-style: italic;
@@ -136,6 +139,7 @@
     .page-title {
       text-align: left;
       font-size: clamp(3rem, 40vw, 250px);
+      text-wrap: auto;
     }
 
     .gradient-1,
