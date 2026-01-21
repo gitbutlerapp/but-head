@@ -5,6 +5,7 @@
   import NoGaps from "./lib/NoGaps.svelte";
   import FontsCompare from "./lib/FontsCompare.svelte";
   import Editor from "./lib/Editor.svelte";
+  import ExampleGallery from "./lib/ExampleGallery.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
@@ -14,6 +15,7 @@
   <NoGaps />
   <FontsCompare />
   <Editor />
+  <ExampleGallery />
   <Footer />
 </main>
 
