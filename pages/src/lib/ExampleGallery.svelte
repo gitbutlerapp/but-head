@@ -54,4 +54,10 @@
       margin-bottom: 1em;
     }
   }
+
+  @media (max-width: 800px) {
+    .example-images {
+      column-count: 1;
+    }
+  }
 </style>
