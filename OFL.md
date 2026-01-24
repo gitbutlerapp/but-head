@@ -1,4 +1,4 @@
-Copyright (c) 2026, Pavel Laptev (pawellaptew@gmail.com),  
+Copyright (c) 2026, Pavel Laptev (https://github.com/pavellaptev),  
 with Reserved Font Name But Head.
 
 Made in GitButler (https://gitbutler.com).  
